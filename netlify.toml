@@ -19,3 +19,9 @@
   #  publish = "dist" # Folder with the static content for _redirect file
 
   ## more info on configuring this file: https://docs.netlify.com/configure-builds/file-based-configuration/
+
+
+[[redirects]]
+  from = "/bar"
+  to = "https://magical-chimera-9ea9ce.netlify.app/"
+  status = 200
