@@ -22,6 +22,7 @@
 
 
 [[redirects]]
-  from = "/bar"
-  to = "https://magical-chimera-9ea9ce.netlify.app/"
-  status = 200
+  from = "/search"
+  to = "/"
+  status = 410
+  force = true
