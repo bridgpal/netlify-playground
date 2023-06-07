@@ -22,7 +22,7 @@
 
 
 [[redirects]]
-  from = "/search"
+  from = "/blog/*"
   to = "/"
   status = 410
   force = true
