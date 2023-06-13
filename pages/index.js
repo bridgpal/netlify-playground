@@ -23,9 +23,8 @@ export default function Home({posts}) {
       {posts.map((p, index) => {
             return (
                 <div className="bg-white rounded-lg shadow-lg p-4" key={index}>
-                <img src=""></img>
                 <h2 className="text-lg font-bold mt-4">{p.node.title}</h2>
-                <p className="text-gray-600">Description</p>
+                <p className="text-gray-600">{p.node.publishedDate}</p>
               </div>
             );
       })}
@@ -54,6 +53,7 @@ export async function getStaticProps() {
                 url
               }
               node_locale
+              publishedDate
             }
           }
         }
