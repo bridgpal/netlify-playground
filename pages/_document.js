@@ -5,7 +5,7 @@ export default function Document() {
     <Html lang="en">
       <Head>
         <meta property="og:title" content="iPhone" />
-        <meta property="og:image" content="https://www.apple.com/v/iphone/home/t/images/home/og.png?201610171354" />
+        <meta property="og:image" content="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" />
       </Head>
       <body>
         <Main />
