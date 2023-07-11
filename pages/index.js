@@ -18,7 +18,7 @@ export default function Home({ posts }) {
 
 
 
-      <div className=" grid grid-cols-3 gap-4 w-2/3 justify-center">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 w-2/3 justify-center">
 
 
         {posts.map((p, index) => {
