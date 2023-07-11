@@ -23,7 +23,7 @@ export default function Home({ posts }) {
 
         {posts.map((p, index) => {
           return (
-            <div className="rounded-lg p-4 bg-slate-100 shadow" key={index}>
+            <div className="rounded-lg p-4 bg-slate-100 shadow hover:shadow-md" key={index}>
               <h2 className="font-bold text-base">{p.node.title}</h2>
               <div className="text-white bg-red-400 rounded-full p-2 inline-block text-xs font-bold mt-3 outline-cyan-50 text-right">{p.node.publishedDate}</div>
             </div>
