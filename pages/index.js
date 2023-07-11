@@ -10,8 +10,8 @@ export default function Home({ posts }) {
         <nav className="flex justify-between px-8">
           <div className="text-white font-bold">🆎 Netlify Playground</div>
           <div className="space-x-4">
-            <a href="#" className="text-white">Link 1</a>
-            <a href="#" className="text-white">Link 2</a> 
+            <a href="/api/hello" className="text-white">Link 1</a>
+            <a href="#" className="text-white">Link 2</a>
           </div>
         </nav>
       </div>
