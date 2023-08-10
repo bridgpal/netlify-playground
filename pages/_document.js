@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body class="bg-[url('/minimal.png')] bg-repeat">
+      <body className="bg-[url('/minimal.png')] bg-repeat">
         <Main />
         <NextScript />
       </body>
