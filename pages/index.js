@@ -35,7 +35,9 @@ export default function Home({ posts }) {
   )
 }
 export async function getStaticProps() {
-const APIURL = 'https://contentful-6ljs2t-prod.valhalla-api.io/';
+console.log("preparing netlify connect");
+const APIURL = 'https://netlify-playg-jp5cnp-prod.api.netlify-connect.com/';
+const AUTH_TOKEN = "Bearer " + process.env.CONNECT_TOKEN;
 
   const QUERY = `
     query MyQuery {
@@ -58,7 +60,7 @@ const APIURL = 'https://contentful-6ljs2t-prod.valhalla-api.io/';
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-
+      'Authorization': AUTH_TOKEN
     },
     body: JSON.stringify({
       query: QUERY,
